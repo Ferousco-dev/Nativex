@@ -1,0 +1,45 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Generated output
+/dist/
+/build/
+generated/
+
+# Android and Gradle
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+
+# Node.js, if used for tooling
+node_modules/
+
+# Test coverage
+coverage/
